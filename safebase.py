@@ -26,5 +26,5 @@ while True:
             block_paste()
 
 
-    time.sleep(0.5)
+    time.sleep(2.0)
 
