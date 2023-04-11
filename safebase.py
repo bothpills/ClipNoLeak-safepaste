@@ -4,7 +4,7 @@ import win32clipboard
 import time
 import re
 
-#Desired regex
+#Regex - detects patterns with ., -, and spaces, even among other characters
 cc_composed_pattern = re.compile(r'\D*(\d{4}[- ]?\d{4}[- ]?\d{4}[- ]?\d{4})\D*')
 cpf_pattern = re.compile(r'\b\d{3}[ .-]?\d{3}[ .-]?\d{3}[ -]?\d{2}\b')
 
