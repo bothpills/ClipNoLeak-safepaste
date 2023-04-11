@@ -9,7 +9,7 @@ cc_composed_pattern = re.compile(r'\D*(\d{4}[- ]?\d{4}[- ]?\d{4}[- ]?\d{4})\D*')
 cpf_pattern = re.compile(r'\b\d{3}[ .-]?\d{3}[ .-]?\d{3}[ -]?\d{2}\b')
 
 
-target_apps = ["chatGPT", "notepad", "word", "iexplore", "firefox", "chrome", "edge", "opera", "safari"]
+target_apps = ["chatGPT", "notepad.exe", "winword.exe", "iexplore.exe", "firefox.exe", "chrome.exe", "msedge.exe", "opera.exe", "safari.exe"]
 
 
 def block_paste():
